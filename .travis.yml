@@ -1,4 +1,4 @@
 language: java
+script: "mvn --debug clean compile"
 jdk:
   - oraclejdk8
-script:mvn clean install
